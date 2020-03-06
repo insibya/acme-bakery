@@ -1,12 +1,6 @@
-import axios from 'axios';
 import React from 'react';
-import ReactDOM from 'react-dom';
-
-const { useState, useEffect } = React;
-
-const App = () => {
-	return <hr />;
-};
+import { render } from 'react-dom';
+import App from './App';
 
 const root = document.querySelector('#root');
-ReactDOM.render(<App />, root);
+render(<App />, root);
